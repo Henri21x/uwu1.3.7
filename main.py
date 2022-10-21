@@ -277,7 +277,7 @@ def onmessage(update,bot:ObigramClient):
     try:
         thread = bot.this_thread
         username = update.message.sender.username
-        tl_admin_user = os.environ.get('tl_admin_user')
+        tl_admin_user = os.environ.get('Mykel13x')
 
         #set in debug
         tl_admin_user = 'Mykel13x'
@@ -300,7 +300,7 @@ def onmessage(update,bot:ObigramClient):
             mensaje = "🎐No tiene acceso.\n👨🏻‍💻Contacta a : @Mykel13x\n"
             intento_msg = "💢El usuario @"+username+ " está solicitando permiso para usar bot💢"
             bot.sendMessage(update.message.chat.id,mensaje)
-            bot.sendMessage(750059828,intento_msg)
+            bot.sendMessage(-1001690776157,intento_msg)
             return
         
 
