@@ -1,2 +1,2 @@
-### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/privis33/UwU-Ultimate-1.3.7)
+- name: Deploy your app to GitHub Pages
+  uses: awibox/deploy-to-github-pages-action@1.1.1
